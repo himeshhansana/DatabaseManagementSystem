@@ -19,6 +19,11 @@ public class Home extends javax.swing.JFrame {
      */
     public Home() {
         initComponents();
+        jPanel7.removeAll();
+        DatabaseBackupPanel databaseBackupPanel = new DatabaseBackupPanel();
+        jPanel7.add(databaseBackupPanel);
+        SwingUtilities.updateComponentTreeUI(jPanel7);
+
     }
 
     /**
@@ -51,7 +56,7 @@ public class Home extends javax.swing.JFrame {
         jPanel2.setBackground(new java.awt.Color(255, 255, 255));
         jPanel2.setPreferredSize(new java.awt.Dimension(1183, 70));
 
-        jLabel16.setFont(new java.awt.Font("Times New Roman", 1, 30)); // NOI18N
+        jLabel16.setFont(new java.awt.Font("Cambria", 1, 30)); // NOI18N
         jLabel16.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel16.setText("DB Manager");
 
@@ -86,7 +91,7 @@ public class Home extends javax.swing.JFrame {
             }
         });
 
-        jLabel1.setFont(new java.awt.Font("Times New Roman", 1, 18)); // NOI18N
+        jLabel1.setFont(new java.awt.Font("Cambria", 1, 18)); // NOI18N
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/resources/cloud-backup-restore-30.png"))); // NOI18N
         jLabel1.setText("Database Backup");
         jLabel1.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
@@ -103,7 +108,7 @@ public class Home extends javax.swing.JFrame {
             }
         });
 
-        jLabel2.setFont(new java.awt.Font("Times New Roman", 1, 18)); // NOI18N
+        jLabel2.setFont(new java.awt.Font("Cambria", 1, 18)); // NOI18N
         jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/resources/database-daily-import-30.png"))); // NOI18N
         jLabel2.setText("Database Restore");
         jLabel2.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
@@ -114,7 +119,7 @@ public class Home extends javax.swing.JFrame {
             }
         });
 
-        jLabel3.setFont(new java.awt.Font("Times New Roman", 1, 18)); // NOI18N
+        jLabel3.setFont(new java.awt.Font("Cambria", 1, 18)); // NOI18N
         jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/resources/database-server-30.png"))); // NOI18N
         jLabel3.setText("Overrride Database");
         jLabel3.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
@@ -128,7 +133,7 @@ public class Home extends javax.swing.JFrame {
             }
         });
 
-        jLabel15.setFont(new java.awt.Font("Times New Roman", 1, 18)); // NOI18N
+        jLabel15.setFont(new java.awt.Font("Cambria", 1, 18)); // NOI18N
         jLabel15.setIcon(new javax.swing.ImageIcon(getClass().getResource("/resources/database-administrator-32.png"))); // NOI18N
         jLabel15.setText("Database Create");
         jLabel15.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
@@ -145,7 +150,7 @@ public class Home extends javax.swing.JFrame {
             }
         });
 
-        jLabel4.setFont(new java.awt.Font("Times New Roman", 1, 18)); // NOI18N
+        jLabel4.setFont(new java.awt.Font("Cambria", 1, 18)); // NOI18N
         jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/resources/delete-database-30.png"))); // NOI18N
         jLabel4.setText("Drop Database");
         jLabel4.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
