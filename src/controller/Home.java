@@ -53,7 +53,7 @@ public class Home extends javax.swing.JFrame {
 
         jPanel1.setLayout(new java.awt.BorderLayout());
 
-        jPanel2.setBackground(new java.awt.Color(255, 255, 255));
+        jPanel2.setBackground(new java.awt.Color(102, 102, 102));
         jPanel2.setPreferredSize(new java.awt.Dimension(1183, 70));
 
         jLabel16.setFont(new java.awt.Font("Cambria", 1, 30)); // NOI18N
